@@ -29,8 +29,7 @@ h1, h2, h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    padding: 40px;
+    width: 98vw;
 }
 
 .navbar h2{
@@ -43,7 +42,7 @@ h1, h2, h4{
 ul{
     display: flex;
     text-decoration: none;
-    gap: 16px;
+    gap: 20px;
     padding: 10px;
     font-weight: bold;
 }
