@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: red;
     font-family: 'Times New Roman', monospace;
 }
 
@@ -122,8 +123,48 @@ a{
 
 #section-2{
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-color: greenyellow;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 96px;
+    margin-top: 56px;
+}
+
+.photocard-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px;
+}
+
+.photocard{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: start;
+    padding: 24px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.photocard img{
+    width: 200px;
+}
+
+.photocard p{
+    text-align: justify;
+    color: white;
+    font-family:monospace;
+    margin: 10px;
+    font-weight: 900;
 }
 
 
@@ -132,10 +173,18 @@ a{
 #section-3{
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: black;
+    color: white;
 }
 
+#section-3 .quote-container{
 
+}
+
+.quote-container p{
+    margin: 0;
+    font-family: monospace;
+}
 
 
 #section-4{
