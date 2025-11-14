@@ -172,23 +172,43 @@ a{
 
 #section-3{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #section-3 .quote-container{
-
+    width: 70vw;
 }
 
-.quote-container p{
+.quote-container h1{
     margin: 0;
     font-family: monospace;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: justify;
+}
+
+.quoter-container{
+    display: flex;
+    width: 70vw;
+    justify-content: end;
+}
+
+.quoter-container h6{
+    text-align: end;
+    font-size: 24px;
+    font-family: monospace;
+    color: greenyellow;
 }
 
 
 #section-4{
     width: 100vw;
     height: 100vh;
-    background-color: orange;
+    background-color: white;
 }
